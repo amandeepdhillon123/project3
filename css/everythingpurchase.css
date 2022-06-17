@@ -1,0 +1,44 @@
+#aman{
+    display: flex;
+}
+#leftside{
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+
+#middleside img {
+    height: 500px;
+    width :300px;
+
+
+}
+#middleside>div{
+    margin: auto;
+}
+#rightside{
+    margin-top: 50px;
+    margin-left: 50px;
+    
+}
+#price{
+    font-size: 20px;
+    font-weight: 600;
+}
+select{
+    height: 50px;
+    width: 290px;
+    margin-bottom: 25px;
+}
+#one{
+    background-color: black;
+    color: white;
+    border: none;
+    height: 30px;
+    width: 150px;
+    
+}
+p{
+    font-size: 20px;
+}
+

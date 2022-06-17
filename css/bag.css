@@ -1,0 +1,142 @@
+#mainBox{
+    /* border: 1px solid blue; */
+    width: 100%;
+    display: flex;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+#cart{
+    width: 10%;
+    /* border: 1px solid black; */
+    margin-left: 120px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+#upper{
+    width: 57%;
+  margin-left: 250px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  /* margin-top: -100PX; */
+}
+
+#upper>p{
+    color: GRAY;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+#show{
+    /* border: 1px solid black; */
+    margin-left: 120px;
+    width: 70%;
+    /* margin: auto; */
+    /* display: flex; */
+    /* height: 300px; */
+}
+
+#box{
+    width: 40%;
+    /* border: 1px solid black; */
+    /* height: 100%; */
+    display: flex;
+}
+
+#box2{
+    width: 10%;
+    /* border: 1px solid black; */
+    /* height: 100%; */
+    /* margin-left: auto; */
+}
+
+#boxFirstBox{
+    width: 40%;
+    /* border: 1px solid black; */
+    /* height: 100%; */
+}
+
+#boxSecBox{
+    width: 60%;
+    /* border: 1px solid red; */
+    /* height: 100%; */
+    margin-left: 20px;
+}
+
+#total{
+    padding-bottom: 150px;
+}
+
+#remove{
+    border: none;
+    text-decoration: underline;
+    background-color: white;
+}
+
+#remove:hover{
+    cursor: pointer;
+}
+
+#wishlist{
+    border: none;
+    text-decoration: underline;
+    background-color: white;
+    padding-top: 100px;
+}
+
+#wishlist:hover{
+    cursor: pointer;
+}
+
+#grandTotal{
+    width: 70%;
+  margin-left: 250px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  /* height: 200px; */
+ 
+}
+
+#grandTotalBox1{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 20%;
+}
+
+#grandTotalBox2{
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 30%;
+    margin-left: auto;
+}
+
+#checkBox{
+    width: 20%;
+    margin-left: auto;
+    /* border: 1px solid red; */
+  
+    margin-right: 80px;
+}
+
+#shift{
+    /* border: 1px solid black; */
+    width: 70%;
+    margin-top: -100px;
+    margin-left: 40px;
+}
+
+#btn{
+    padding: 10px 80px;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+
+#btn:hover{
+    cursor: pointer;
+}

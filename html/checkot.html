@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<link rel="stylesheet" href="/css/index.css">
+</head>
+<body>
+<div id="navbar">
+    <div id="left">
+        <p > <a href="/html/mens.html">MENSWear</a></p>
+        <p > <a href="/html/women.html">WOMENWEAR</a></p>
+        <p > <a href="/html/everthing.html">EVERYTHING ElSE</a></p>
+    </div>
+    <div id="mid">
+        <p><a href="/html/ssense.html">SSENSE</a> </p>
+
+    </div>
+
+    <div id="right">
+        <p > <a href="/html/english.html">ENGLISH</a></p>
+        <p > <a href="/html/sign.html">SIGNUP</a></p>
+        <p > <a href="/html/login.html">LOGIN</a></p>
+        <p > <a href="/html/whishlist.html">WIHLIST</a></p>
+        
+
+        <p > <a href="/html/shoppingbag.html">SHOPPING BAG(0)</a></p>
+    </div>
+
+
+</div>
+
+    
+        
+    
+
+            <div style="margin-left: 20px;">
+                <p>SHIPPING ADDRESS</p>
+                <p>_____________________________</p>
+                <p>Name</p>
+                <input type="text">
+                <p>last Name</p>
+                <input type="text">
+                <p>Street Address</p>
+                <input type="text">
+                <p>Company (Optional)</p>
+                <input type="text">
+                <p>City</p>
+                <input type="text">
+                <p>Zip Code</p>
+                <input type="number" placeholder="e.g.125690" >
+                <p>Phone</p>
+                <input type="number" id="ph">
+            </div>
+         <div>
+                <p>SHIPPING METHOD</p>
+                <p>_________________________</p>
+                <input type="radio" id="radio1">
+                <label for="radio1">40.00 INR | 5 - 7 days | Express</label>
+            
+            
+                <p>PAYMENT METHOD</p>
+                <p>_________________________</p>
+                <input type="radio" id="pay1">
+                <label for="pay1">Pay with credit or debit card</label><br>
+                <input type="radio" id="pay2">
+                <label for="pay2">Pay with Paypal</label><br>
+                <input type="radio" id="pay3">
+            <label for="pay3">Pay with Alipay</label>
+        
+        
+                <p>CARD DETAILS</p>
+                <p>_________________________</p>
+                
+                    
+                <p>Card number</p>
+                <input type="number" placeholder="1234 1234 1234 1234" id="cor1">
+                <p>Expiration date</p>  
+                <input type="text" placeholder="MM/YY" id="cor">    
+                <p>Cardholder’s name</p>
+                <input type="text" id="cor1">      
+                <p>Security code</p>
+                <input type="text" placeholder="CVC" id="cor">     
+                   
+            
+            </div>     
+                        
+            </div>
+                    
+                        
+                
+    
+            
+            <button id="bton" ><a href="">PLACE ORDER</a></button>
+            
+                <p>_____________________</p>
+                <center>
+                    <p>SSENSE, 333 Chabanel W, #900, Montreal, QC, CA, H2N 2E7</p>
+                    <p>Terms & Conditions Privacy Policy</p>
+                </center>
+            
+        
+    
+
+
+
+
+
+</body>
+</html>
+<script>
+    document.querySelector("#bton").addEventListener("click",myfun)
+
+function myfun(){
+    event.preventDefault();
+    alert("order successful")
+}
+</script>
