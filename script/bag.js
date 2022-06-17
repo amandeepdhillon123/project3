@@ -35,8 +35,7 @@ womendata.map(function(el,i){
     let select=document.createElement("select")
     select.setAttribute("id","select")
         
-        // var option2 = document.createElement("option")
-        // option2.innerText="SELECT A SIZE"
+        
         
         var option3= document.createElement("option")
         option3.innerText="XS-Only 1 remaining"
@@ -98,7 +97,7 @@ function removeFun(el,i) {
 function  btnFun(el){
 cartData.push(el)
 localStorage.setItem("bagData",JSON.stringify(cartData))
-window.location.href="./pranshu.html"
+window.location.href="checkot.html"
 }
 
 
